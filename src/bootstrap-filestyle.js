@@ -174,7 +174,7 @@
 
             // hidding input file and add filestyle
             this.$element
-                .css({'position':'fixed','left':'-500px'})
+                .css({'position':'fixed','top':'-10000px'})
                 .attr('tabindex', "-1")
                 .after(this.$elementFilestyle);
 
@@ -239,8 +239,8 @@
         'buttonText': 'Choose file',
         'input': true,
         'icon': true,
-        'classButton': 'btn',
-        'classInput': 'input-large',
+        'classButton': 'btn btn-default',
+        'classInput': 'form-control',
         'classIcon': 'icon-folder-open'
     };
 
