@@ -1,7 +1,8 @@
 $('#input01').filestyle()
 
 $('#input02').filestyle({
-	buttonText: 'My filestyle'
+	buttonText: 'My filestyle',
+	buttonBefore: true
 });
 
 $('#input03').filestyle({
@@ -14,7 +15,8 @@ $('#input04').filestyle({
 });
 
 $('#input05').filestyle({
-	classButton: 'btn btn-warning'
+	classButton: 'btn btn-warning',
+	disabled: true
 });
 
 $('#input06').filestyle({
